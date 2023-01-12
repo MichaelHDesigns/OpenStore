@@ -10,11 +10,12 @@ module.exports = {
     hardhat: {
       chainId: 2330,
     },
- //   mumbai: {
+     mumbai: {
       // Infura
- //     url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
- //     accounts: [privateKey],
- //   },
+      url: `https://altcoinchain.infura-ipfs.io/v3/${infuraId}`,
+      url: "https://rpc0.altcoinchain.org/rpc",
+      accounts: [process.env.privateKey]
+    },
   },
   solidity: {
     version: "0.8.4",
