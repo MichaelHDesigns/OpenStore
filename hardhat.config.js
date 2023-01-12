@@ -8,13 +8,13 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      chainId: 1337,
+      chainId: 2330,
     },
-    mumbai: {
+ //   mumbai: {
       // Infura
-      url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
-      accounts: [privateKey],
-    },
+ //     url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
+ //     accounts: [privateKey],
+ //   },
   },
   solidity: {
     version: "0.8.4",
